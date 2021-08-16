@@ -8,10 +8,10 @@
 
 using namespace std;
 
-const char characters[] = "0123456789!@#$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-int length = sizeof(characters)-1;
 
 void generatePW() {
+    char characters[] = "0123456789!@#$%^&*abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int length = sizeof(characters)-1;
     int n;
     cout << "Enter length: ";
     cin >> n;
